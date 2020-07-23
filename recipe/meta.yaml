@@ -1,18 +1,18 @@
 {% set name = "magicgui" %}
-{% set version = "0.1.5" %}
+{% set version = "0.1.6" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
-  url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: 65e7b6845e636a302aecf2e736232aba7f9651ea782230ab4bb58627d957e893
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 2f05ba85fe8be39d36975dfb25e53cae9e17a5ccc5c15fb68334683735cdce83
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install --no-deps --ignore-installed . -vv"
+  script: {{ PYTHON }} -m pip install --no-deps --ignore-installed . -vv
 
 requirements:
   host:
@@ -30,11 +30,11 @@ test:
     - magicgui
 
 about:
-  home: "https://github.com/napari/magicgui"
+  home: https://github.com/napari/magicgui
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: "build GUIs from functions, using magic."
+  summary: build GUIs from functions, using magic.
   doc_url: https://magicgui.readthedocs.io/en/latest/
   dev_url: https://github.com/napari/magicgui
 
