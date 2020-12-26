@@ -5,11 +5,13 @@ Home: https://github.com/napari/magicgui
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/magicgui-feedstock/blob/master/LICENSE.txt)
 
 Summary: build GUIs from functions, using magic.
 
+Development: https://github.com/napari/magicgui
 
+Documentation: https://magicgui.readthedocs.io/en/latest/
 
 Current build status
 ====================
