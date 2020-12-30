@@ -22,6 +22,7 @@ requirements:
   run:
     - python
     - qtpy >=1.7.0
+    - typing_extensions
 
 test:
   requires:
@@ -35,7 +36,7 @@ about:
   license_family: MIT
   license_file: LICENSE
   summary: build GUIs from functions, using magic.
-  doc_url: https://magicgui.readthedocs.io/en/latest/
+  doc_url: https://napari.org/magicgui
   dev_url: https://github.com/napari/magicgui
 
 extra:
