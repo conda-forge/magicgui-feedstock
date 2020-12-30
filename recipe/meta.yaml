@@ -20,7 +20,7 @@ requirements:
     - python
     - setuptools_scm
   run:
-    - python
+    - python >=3.7
     - qtpy >=1.7.0
     - typing_extensions
 
