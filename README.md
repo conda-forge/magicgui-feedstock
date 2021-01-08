@@ -11,7 +11,7 @@ Summary: build GUIs from functions, using magic.
 
 Development: https://github.com/napari/magicgui
 
-Documentation: https://magicgui.readthedocs.io/en/latest/
+Documentation: https://napari.org/magicgui
 
 Current build status
 ====================
