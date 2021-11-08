@@ -1,5 +1,5 @@
 {% set name = "magicgui" %}
-{% set version = "0.3.2" %}
+{% set version = "0.3.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 4e39fba5b19016c790096052d8910f08619a9c7fe10e7110f574fdbcab0f3ee1
+  sha256: ddbfa5c35c3d2a8d020a37e6cbfbb4b87b295959c4c1829c289d74f92a11e8f2
 
 build:
   number: 0
