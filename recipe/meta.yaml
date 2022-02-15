@@ -1,5 +1,5 @@
 {% set name = "magicgui" %}
-{% set version = "0.3.6" %}
+{% set version = "0.3.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: fda7b20a6380623241dc9e2fd3317870e5e7e08521c6f98c38bbd68f81b450f7
+  sha256: 767d6a3f162508d6fc3ebfabdb87c4be0beaa5df17b69b6434cd0a870a4135a9
 
 build:
   number: 0
@@ -22,7 +22,7 @@ requirements:
   run:
     - python >=3.7
     - docstring_parser
-    - psygnal >=0.1.3
+    - psygnal >=0.3.0
     - qtpy >=1.7.0
     - typing_extensions
 
