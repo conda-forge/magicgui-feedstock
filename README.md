@@ -1,17 +1,17 @@
-About magicgui
-==============
-
-Home: https://github.com/napari/magicgui
-
-Package license: MIT
+About magicgui-feedstock
+========================
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/magicgui-feedstock/blob/main/LICENSE.txt)
 
+Home: https://github.com/pyapp-kit/magicgui
+
+Package license: MIT
+
 Summary: build GUIs from functions, using magic.
 
-Development: https://github.com/napari/magicgui
+Development: https://github.com/pyapp-kit/magicgui
 
-Documentation: https://napari.org/magicgui
+Documentation: https://pyapp-kit.github.io/magicgui/
 
 Current build status
 ====================
