@@ -7,7 +7,7 @@ Home: https://github.com/pyapp-kit/magicgui
 
 Package license: MIT
 
-Summary: build GUIs from functions, using magic.
+Summary: Build GUIs from python types.
 
 Development: https://github.com/pyapp-kit/magicgui
 
