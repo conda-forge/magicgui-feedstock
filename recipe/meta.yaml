@@ -27,7 +27,7 @@ requirements:
     - qtpy >=1.7.0
     - superqt >=0.4.0
     - typing_extensions >=4.1.0
-    - pyconify >=0.1.4  # superqt[iconify]
+    - pyconify >=0.1.4
 
 test:
   requires:
