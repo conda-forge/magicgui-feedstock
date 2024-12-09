@@ -6,22 +6,22 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: e8c1c7ed281e62ec858771a76515abd705dbe3d46da2ee834ce6983a4403b94d
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install --no-deps --ignore-installed . -vv
 
 requirements:
   host:
     - pip
-    - python >=3.8
+    - python {{ python_min }}
     - hatchling >=1.8.0
     - hatch-vcs
   run:
-    - python >=3.8
+    - python >={{ python_min }}
     - docstring_parser >=0.7
     - psygnal >=0.6.1
     - qtpy >=1.7.0
@@ -32,6 +32,7 @@ requirements:
 test:
   requires:
     - pyside2
+    - python {{ python_min }}
   imports:
     - magicgui
 
